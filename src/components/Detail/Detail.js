@@ -29,6 +29,9 @@ const Detail = () => {
         <Card.Text>
         Region: {region}
         </Card.Text>
+        <Card.Text>
+        {country.name && <h3>Native Name: {country.languages[0].nativeName}</h3>}
+        </Card.Text>
         </Card.Body>
         </Card>
 
